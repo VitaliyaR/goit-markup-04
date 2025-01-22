@@ -122,10 +122,12 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
 
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), (rgba(46, 47, 66, 0.7)),
-    url(../images/backround.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/backround.jpg); /* затемнення поверх фону */
 
-  /*  указать затемнение картинки ,єтот код не работет*/
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center;
