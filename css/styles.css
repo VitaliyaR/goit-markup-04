@@ -233,12 +233,12 @@ body {
   display: flex;
 }
 
-/*.box-svg {
+.box-svg {
   width: 264px;
   height: 112px;
   display: flex;
   border: 1px solid rgb(142, 143, 153);
-}*/
+
 /*----------------------------SECTION-THREE----------------------------*/
 
 .section-three {
