@@ -110,13 +110,6 @@ body {
   text-align: center;
   max-width: 496px;
   margin: 0 0 0 0;
-
-  /*---background-color: url(../images/background.jpg);
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  background-position: center;
-  background-size: ширина висота;
-  ---*/
 }
 .section-one {
   padding-top: 188px;
@@ -240,6 +233,12 @@ body {
   display: flex;
 }
 
+.box-svg {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  border: 1px solid rgb(142, 143, 153);
+}
 /*----------------------------SECTION-THREE----------------------------*/
 
 .section-three {
