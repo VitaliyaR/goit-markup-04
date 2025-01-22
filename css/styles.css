@@ -231,10 +231,6 @@ body {
 
 .flex-class-section-two {
   display: flex;
-  width: 264px;
-  height: 112px;
-
-  border: 1px solid rgb(142, 143, 153);
 }
 
 /*.box-svg {
