@@ -68,6 +68,7 @@ body {
   border-radius: 2px;
   bottom: 0;
   align-items: flex-end;
+  border-radius: 15px;
 }
 
 .address {
