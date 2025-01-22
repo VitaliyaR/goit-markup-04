@@ -121,8 +121,9 @@ body {
 .section-one {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-color: rgba(46, 47, 66, 0.7);
-  background-image: url(../images/backround.jpg);
+
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+    url(../images/backround.jpg);
 
   /*  указать затемнение картинки ,єтот код не работет*/
   background-repeat: no-repeat;
