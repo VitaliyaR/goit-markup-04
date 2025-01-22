@@ -233,11 +233,16 @@ body {
   display: flex;
 }
 
-/*.box-svg {
+.box-svg {
   width: 264px;
   height: 112px;
   display: flex;
-  border: 1px solid rgb(142, 143, 153);*/
+  border: 1px solid rgb(142, 143, 153);
+  position: absolute;
+  background: rgb(244, 244, 253);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
 /*----------------------------SECTION-THREE----------------------------*/
 
