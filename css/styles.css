@@ -308,7 +308,7 @@ body {
 
 .section-three-icons {
   display: flex;
-  align-items: center;/*tets*/
+  /*align-items: center;tets*/
   margin-right: 90px;
   gap: 18px;
 }
