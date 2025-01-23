@@ -306,6 +306,18 @@ body {
   text-align: center;
 }
 
+.section-three-icons {
+  display: flex;
+  align-items: center;/*tets*/
+  margin-right: 90px;
+  gap: 18px;
+}
+.section-three-item {
+}
+.section-three-link {
+}
+
+
 /*----------------------------------SECTION FOUR(4)--------------------------------*/
 
 .section-four {
