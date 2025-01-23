@@ -145,6 +145,7 @@ body {
   margin: 46px auto 0px auto;
   /*--margin-top: 46px;--*/
   display: block;
+  
 }
 
 .button:hover {
@@ -306,18 +307,29 @@ body {
   text-align: center;
 }
 
-.section-three-icons {
-  display: flex;
-  /*align-items: center;tets*/
-  margin-right: 90px;
-  gap: 18px;
-}
-.section-three-item {
-}
-.section-three-link {
+.section-three-link { 
+  color: pink
+ 
 }
 
+.section-thre{
 
+}
+.three-link {
+}
+.section-three-icon {
+
+  
+  
+
+
+
+}
+.three-link {
+}
+.three-link:hover {
+  fill:#404bbf
+}
 /*----------------------------------SECTION FOUR(4)--------------------------------*/
 
 .section-four {
@@ -354,8 +366,35 @@ body {
 
 .portfolio-list {
   width: calc((100% - 48px) / 3);
-}
 
+}
+.portfolio-list:hover .text-cover {
+  transform: translateY(0);
+  
+
+}
+.text-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  height: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  background-color: #404bbf;
+  color: white;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+
+
+  }
+.port-list-container {
+  position: relative;
+  overflow: hidden;
+
+}
 .portfolio-name-portfolio-discripion {
   display: flex;
   flex-direction: column;
