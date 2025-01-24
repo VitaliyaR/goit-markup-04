@@ -240,10 +240,13 @@ body {
 .flex-class-section-two {
   display: flex;
 }
+
 .section-two-icon {
+  width: 264px;
   display: flex;
   align-items: center;
   justify-content: center;
+
   height: 112px;
   background-color: #f4f4fd;
   border-radius: 4px;
